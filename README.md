@@ -1,1 +1,3 @@
-# Angular-and-firebase
+Angular and Firebase
+
+Requirements: Nodejs, Firebase, Angular
