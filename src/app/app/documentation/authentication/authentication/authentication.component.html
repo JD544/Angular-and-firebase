@@ -1,0 +1,116 @@
+<div class="navbar">
+    <div class="container flex">
+        <h1 class="logo">GMAD</h1>
+            <nav>
+                <ul>
+                    <li><a [routerLink]="['/']">Home</a></li>
+                    <li><a [routerLink]="['/features']">Features</a></li>
+                </ul>
+            </nav>
+    </div>
+</div>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+    <!-- Head -->
+    <section class="docs-head bg-primary py-3">
+        <div class="container grid">
+            <div>
+                <h1 class="xl">Docs - Authentication</h1>
+                <p class="lead">
+                    Learn how to work with the GMAD platform
+                </p>
+            </div>
+            <img src="images/docs.png" alt="">
+        </div>
+    </section>
+
+    <!-- Docs main -->
+    <section class="docs-main my-4">
+        <div class="container grid">
+            <div class="card bg-light p-3">
+                <h3 class="my-2">Essentials</h3>
+                <nav>
+                    <ul>
+                        <li><a class="text-primary" href="#">Introduction</a></li>
+                        <li><a href="#">About Loruki</a></li>
+                        <li><a href="#">Installation</a></li>
+                    </ul>
+                </nav>
+
+                <h3 class="my-2">Deployment</h3>
+                <nav>
+                    <ul>
+                        <li><a href="/docs">Setting up an API Cal</a></li>
+							<li><a href="/docs">Using the CLI</a></li>
+							<li><a href="/docs">Managing resources</a></li>
+							<li><a href="#">Upgrade & downgrade</a></li>
+                    </ul>
+                </nav>
+                <h3 class="my-2">Authentication & database</h3>
+                <nav>
+                    <ul>
+                        <li><a href="#">Logging users in</a></li>
+							<li><a href="/docs/database">Storing data</a></li>
+							<li><a href="#">Managing Roles</a></li>
+							<li><a href="docs/authentication">Delete a user</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="card">
+                <h2>Introduction</h2>
+                <p>The database is the most useful thing in your apps</p>
+
+                <h3>Angular CLI</h3>
+                <p>If you need to create a new project via Angular, You can do so below</p>
+                <a href="/docs" class="btn btn-primary">Install CLI</a>
+
+                <h3>Requirements</h3>
+                <ul>
+                    <li>Windows 10, Mac OSX, Linux</li>
+                    <li>Node.js v12 or higher, Angular</li>
+                </ul>
+                <h3>Languges we will be using</h3>
+                <ul>
+                    <li>Typescript</li>
+                    <li>HTML</li>
+                </ul>
+                <h3>Imports</h3>
+                <pre>{{ line }}</pre>
+                <h3>Let's get started</h3>
+                <pre>{{ line2 }}</pre>
+                <h3>Log users in:</h3>
+                <p>This is a great way to have Authenticated users</p>
+                <pre>{{ line3 }}</pre>
+                <h3>Get user</h3>
+                <p>Checks if an user is logged in or not</p>
+                <pre>{{ line4 }}</pre>
+                <h3>Deleting an user</h3>
+                <pre>{{ line5 }}</pre>
+                <h3>Connecting your app to the backend</h3>
+                <pre>{{ line6 }}</pre>
+                <h3>Setting rules for your app</h3>
+                <a href="https://conole.gma.digital" class="btn btn-primary">Go to console</a>
+            </div>
+        </div>
+    </section>
+
+<!-- Footer -->
+<footer class="footer bg-dark py-5">
+    <div class="container grid grid-3">
+        <div>
+            <h1>GMAD
+            </h1>
+            <p>Copyright &copy; 2020</p>
+        </div>
+        <nav>
+            <li><a [routerLink]="['/']">Home</a></li>
+            <li><a [routerLink]="['/login']">Login</a></li>
+            <li><a [routerLink]="['/']">My classes</a></li>
+        </nav>
+        <div class="social">
+            <a><i class="fab fa-twitter fa-2x"></i></a>
+            <a><i class="fab fa-facebook fa-2x"></i></a>
+            <a><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+    </div>
+</footer>

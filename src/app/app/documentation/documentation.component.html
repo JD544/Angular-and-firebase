@@ -1,0 +1,110 @@
+<div class="navbar">
+    <div class="container flex">
+        <h1 class="logo">GMAD</h1>
+            <nav>
+                <ul>
+                    <li><a [routerLink]="['/']">Home</a></li>
+                    <li><a [routerLink]="['/gmad/features']">Features</a></li>
+                </ul>
+            </nav>
+    </div>
+</div>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+    <!-- Head -->
+    <section class="docs-head bg-primary py-3">
+        <div class="container grid">
+            <div>
+                <h1 class="xl">Docs</h1>
+                <p class="lead">
+                    Learn how to work with the Loruki platform
+                </p>
+            </div>
+            <img src="images/docs.png" alt="">
+        </div>
+    </section>
+
+    <!-- Docs main -->
+    <section class="docs-main my-4">
+        <div class="container grid">
+            <div class="card bg-light p-3">
+                <h3 class="my-2">Essentials</h3>
+                <nav>
+                    <ul>
+                        <li><a class="text-primary" href="#">Introduction</a></li>
+                        <li><a href="#">About Loruki</a></li>
+                        <li><a href="#">Installation</a></li>
+                    </ul>
+                </nav>
+
+                <h3 class="my-2">Deployment</h3>
+                <nav>
+                    <ul>
+                        <li><a href="#">Setting up an API Cal</a></li>
+							<li><a href="#">Using the CLI</a></li>
+							<li><a href="#">Managing resources</a></li>
+							<li><a href="#">Upgrade & downgrade</a></li>
+                    </ul>
+                </nav>
+                <h3 class="my-2">Authentication and database</h3>
+                <nav>
+                    <ul>
+                        <li><a href="#">Logging users in</a></li>
+							<li><a href="docs/database">Storing data</a></li>
+							<li><a href="#">Managing Roles</a></li>
+							<li><a href="#">Delete a user</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="card">
+                <h2>Introduction</h2>
+                <p>Setup and install Angular and GMAD</p>
+
+                <h3>Requirements</h3>
+                <ul>
+                    <li>Windows 10, Mac OSX, Linux</li>
+                    <li>Node.js v12 or higher</li>
+                </ul>
+
+                <h3>Install</h3>
+                <p>Mac (Homebrew)</p>
+                <pre><code>$ brew install angular-cli</code></pre>
+                <p>NPM</p>
+                <pre><code>$ npm install @angular-cli</code></pre>
+                <p>Yarn</p>
+                <pre><code>$ yarn install angular-cli</code></pre>
+                <h3>Install GMAD</h3>
+                <pre><code>$ npm install @gmad</code></pre>
+                <h3>Create a new angular app</h3>
+                <pre><code>$ ng new angularfire</code></pre>
+                <h3>Open a development server</h3>
+                <pre><code>$ ng serve //optional -o</code></pre>                
+                <h3>Optional: Generate an Componenent</h3>
+                <pre><code>$ ng g c Home</code></pre>
+                <h3>Optional: Generate an Service</h3>
+                <pre><code>$ ng g service Home</code></pre>
+            </div>
+        </div>
+    </section>
+
+<!-- Footer -->
+<footer class="footer bg-dark py-5">
+    <div class="container grid grid-3">
+        <div>
+            <h1>GMAD
+            </h1>
+            <p>Copyright &copy; 2020</p>
+        </div>
+        <nav>
+            <li><a [routerLink]="['/']">Home</a></li>
+            <li><a [routerLink]="['/login']">Login</a></li>
+            <li><a [routerLink]="['/']">My classes</a></li>
+        </nav>
+        <div class="social">
+            <a><i class="fab fa-twitter fa-2x"></i></a>
+            <a><i class="fab fa-facebook fa-2x"></i></a>
+            <a><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+    </div>
+</footer>
