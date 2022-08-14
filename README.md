@@ -1,6 +1,6 @@
 # Features
 
-Basic Authencation
+Basic Authentication
 
 Firebase Intregration
 
